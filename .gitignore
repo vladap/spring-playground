@@ -1,0 +1,39 @@
+data
+target
+output
+logs
+*.log
+*.jar
+*.war
+*.ear
+*.class
+*.swp
+*.tmp
+*.bak
+*~
+nohup.out
+
+# Eclipse specific                  
+.project
+.metadata
+.classpath
+.settings
+.loadpath
+local.properties
+*.swp
+*.launch
+
+# Idea specific
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Netbeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
