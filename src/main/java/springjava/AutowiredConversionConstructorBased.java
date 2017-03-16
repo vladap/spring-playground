@@ -1,4 +1,4 @@
-package spring;
+package springjava;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -26,8 +26,8 @@ public class AutowiredConversionConstructorBased {
   }
 
   void run() {
-    System.out.printf("\n\nAutowiredConversionConstructorBased"
-      + "\n-----------------------------------");
+    System.out.printf("\n\nJava AutowiredConversionConstructorBased"
+      + "\n----------------------------------------");
     System.out.printf("\n     " + convert.apply("I'm converted"));
     System.out.printf("\n     Autowired: "
       + convert.getClass().toString() + "\n\n");

@@ -1,4 +1,4 @@
-package spring;
+package springjava;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -15,5 +15,5 @@ import org.springframework.context.annotation.Configuration;
  * Maybe Java8 default methods in interfaces could be used as well to compose Configuration.
  */
 @Configuration
-@ComponentScan(basePackages = "spring")
+@ComponentScan(basePackages = "springjava")
 public class Config {}

@@ -1,4 +1,4 @@
-package spring;
+package springjava;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -17,8 +17,8 @@ public class AutowiredConversionPrivateFieldBased {
   private Function<String, String> convert;
 
   void run() {
-    System.out.printf("\n\nAutowiredConversionPrivateFieldBased"
-      + "\n------------------------------------");
+    System.out.printf("\n\nJava AutowiredConversionPrivateFieldBased"
+      + "\n-----------------------------------------");
     System.out.printf("\n     " + convert.apply("I'm converted"));
     System.out.printf("\n     Autowired: " + convert.getClass().toString() + "\n\n");
   }
